@@ -10,7 +10,7 @@ while row_index < src.length do
     # puts src[row_index][element_index]
      # element_index += 1
     #end
-   newfoodarray.push("I love #{topping1} and #{topping2} on my pizza")
+   newfoodarray << ("I love #{topping1} and #{topping2} on my pizza")
     row_index += 1
   end
   newfoodarray
