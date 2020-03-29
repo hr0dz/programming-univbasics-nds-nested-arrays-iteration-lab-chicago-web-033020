@@ -3,7 +3,7 @@ newfoodarray = Array.new
 
 
 row_index = 0
-while row_index < src.count do
+while row_index < src.length do
  element_index = 0
    topping1 = src[row_index][0]
    topping2 = src[row_index][1]
